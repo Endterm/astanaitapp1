@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041F6B4225E671A500AEF67F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F6B4125E671A500AEF67F /* HomeViewController.swift */; };
+		041F6B4525E6799E00AEF67F /* IGPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F6B4425E6799E00AEF67F /* IGPostTableViewCell.swift */; };
 		06AAA6F625E665530085EAFE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AAA6F525E665530085EAFE /* ProfileViewController.swift */; };
 		06C8B97B25E49FD900A801CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8B97A25E49FD900A801CD /* AppDelegate.swift */; };
 		06C8B97D25E49FD900A801CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8B97C25E49FD900A801CD /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041F6B4125E671A500AEF67F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		041F6B4425E6799E00AEF67F /* IGPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IGPostTableViewCell.swift; path = "Social Media App (Endterm Project)/Controllers/IGPostTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		06AAA6F525E665530085EAFE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		06C8B97725E49FD900A801CD /* Social Media App (Endterm Project).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Media App (Endterm Project).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C8B97A25E49FD900A801CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				06AAA6F525E665530085EAFE /* ProfileViewController.swift */,
+				041F6B4125E671A500AEF67F /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -50,6 +55,7 @@
 		06AAA6F425E6653A0085EAFE /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				041F6B4425E6799E00AEF67F /* IGPostTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -156,10 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041F6B4225E671A500AEF67F /* HomeViewController.swift in Sources */,
 				06C8B97F25E49FD900A801CD /* ViewController.swift in Sources */,
 				06C8B97B25E49FD900A801CD /* AppDelegate.swift in Sources */,
 				06AAA6F625E665530085EAFE /* ProfileViewController.swift in Sources */,
 				06C8B97D25E49FD900A801CD /* SceneDelegate.swift in Sources */,
+				041F6B4525E6799E00AEF67F /* IGPostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
